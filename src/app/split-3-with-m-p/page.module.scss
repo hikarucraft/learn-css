@@ -1,0 +1,23 @@
+.container {
+  min-height: 400px;
+  padding: 40px 0;
+  border-right: 1px dashed #000;
+  border-left: 1px dashed #000;
+}
+
+.container ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -10px;
+}
+
+.container li {
+  width: calc(100% / 3);
+  padding: 10px;
+}
+
+.container li div {
+  height: 100px;
+  background-color: #0cf;
+  border: 1px solid #000;
+}
