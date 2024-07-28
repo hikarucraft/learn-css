@@ -10,14 +10,14 @@ const nextConfig = {
     config.resolve.alias['@'] = path.join(__dirname, 'src');
     return config;
   },
-  sassOptions: {
-    //includePaths: [path.join(__dirname, 'src/styles')],
-    //prependData: `@use "${path.resolve(__dirname, 'src/styles/main.scss')}";`,
-    //additionalData: `@import "main";`,
-    prependData: `
-    @use 'src/styles/_variables.scss' as *;
-    `,
-  },
+  //   sassOptions: {
+  //     //includePaths: [path.join(__dirname, 'src/styles')],
+  //     //prependData: `@use "${path.resolve(__dirname, 'src/styles/main.scss')}";`,
+  //     //additionalData: `@import "main";`,
+  //     prependData: `
+  //     @use 'src/styles/_variables.scss' as *;
+  //     `,
+  //   },
 };
 
 export default nextConfig;
